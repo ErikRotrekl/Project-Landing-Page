@@ -149,8 +149,49 @@ a:active {
 
 .container3 {
     background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.smallcontainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.quote {
+    width: 600px;
+    display:flex;
+    justify-content: center;
+}
+
+.quote, .name {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    flex-basis: 100%;
+}
+
+.name {
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .container4 {
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.bluecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    margin: 20px;
 }
