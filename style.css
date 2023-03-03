@@ -43,7 +43,9 @@ li {
     margin-right: 20px;
 }
 
-
+.name {
+    margin-bottom: 5vh;
+}
 
 .right-group {
     display: flex;
@@ -122,14 +124,17 @@ a:link {
 
 a:visited {
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 a:hover {
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 a:active {
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 .container1 {
@@ -179,11 +184,11 @@ a:active {
     justify-content: center;
     list-style-type: none;
     flex-wrap: wrap;
-
-    height: 50vh;
+    height: 60vh;
 }
 
 .smallcontainer {
+
     margin-top: 50px;
     margin-bottom: 50px;
     width: 60vw;
