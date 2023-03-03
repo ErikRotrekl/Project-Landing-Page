@@ -9,8 +9,8 @@ body {
 }
 
 img {
-    width: 500px;
-    height: 150px;
+    max-width: 100%; 
+    height: auto;
     background-color: grey;
     color: white;
     line-height:150px;
@@ -22,7 +22,7 @@ img {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    color: #F9FAF8;
+    color: #f2a900;
     list-style-type: none;
 
   }
@@ -30,6 +30,8 @@ img {
 .logo {
     margin-top: 2vh;
     margin-left: 20vw;
+    width: 4vw; 
+    height: 7vh;
 }
 
 .links {
@@ -37,6 +39,7 @@ img {
     display: flex;
     align-items: flex-end;
     margin-right: 20vw;
+    color: #f2a900;
 }
 
 li {
@@ -60,14 +63,14 @@ li {
 }
 
 .nadpis {
-    color:#F9FAF8;
+    color:white;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 1vh;
 }
 
 .text {
-    color:#E5E7EB;
+    color: white	;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 1vh;
@@ -119,22 +122,22 @@ p {
 
 a:link {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #f2a900;
 }
 
 a:visited {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #f2a900;
 }
 
 a:hover {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #f2a900;
 }
 
 a:active {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #f2a900;
 }
 
 .container1 {
